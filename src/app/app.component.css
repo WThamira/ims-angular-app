@@ -1,0 +1,76 @@
+.spacer {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+
+.example-card {
+  width: 400px;
+}
+
+.example-header-image {
+  background-image: url('http://download-wallpaper.net/images/images/images-13.jpg');
+  background-size: cover;
+}
+
+.example-header-image1 {
+  background-image: url('https://static.pexels.com/photos/33109/fall-autumn-red-season.jpg');
+  background-size: cover;
+}
+
+.example-header-image2 {
+  background-image: url('https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2016/03/1458289957powerful-images3.jpg');
+  background-size: cover;
+}
+
+.example-header-image3 {
+  background-image: url('http://download-wallpaper.net/images/images-nature/images-nature-26.jpg');
+  background-size: cover;
+}
+
+.fill-remaining-space {
+  /*This fills the remaining space, by using flexbox.  
+  Every toolbar row uses a flexbox row layout. */
+  flex: 1 1 auto;
+}
+
+.example-sidenav-fab-container {
+  /*width: 500px;
+  height: 300px;*/
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.example-sidenav-fab-container md-sidenav {
+  max-width: 300px;
+  width: 20%;
+}
+
+.example-sidenav-fab-container .mat-sidenav-content, .example-sidenav-fab-container md-sidenav {
+  display: flex;
+  overflow: visible;
+}
+
+.example-scrolling-content {
+  overflow: auto;
+  background-color: #FFFFFF;
+  box-shadow: 20px 10px 100px #757575;
+  width: 100%;
+}
+
+.example-fab {
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+}
+
+.button_md_bt {
+  width: 300px;
+  height: 60px;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  margin-bottom: 2px;
+}
+
+
+
