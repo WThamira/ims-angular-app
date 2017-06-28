@@ -1,3 +1,4 @@
+import { element } from 'protractor';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -8,10 +9,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SideBarComponent implements OnInit {
 
-  constructor() { }
+  constructor(){
+
+  };
+
+
 
   ngOnInit() {
+    
   }
+  // ngAfterViewInit() {
+  //   document.getElementById('loginInput').style.color="blue";
+    
+  // }
 
   myval = false;
 
@@ -21,6 +31,7 @@ export class SideBarComponent implements OnInit {
     } else {
       this.myval = true;
     }
+
   };
 
   outevent() {
@@ -35,4 +46,6 @@ export class SideBarComponent implements OnInit {
   myclick(){
     console.log('clicked')
   };
+
+  
 }

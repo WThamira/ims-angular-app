@@ -3,18 +3,18 @@
           <a  md-line routerLink="" >Registration</a>
           <md-icon md-list-avatar>group_add</md-icon>
         </md-list-item>
-        <md-list-item *ngIf='myval' class="list_css1">
+        <md-list-item class="md-3-line"  class="list_css1">
           <md-icon style="margin-left: 20px;" md-list-avatar >person</md-icon>
           <a style="font-size: 12px;" md-line routerLink="">Add User Account</a>
         </md-list-item>
         
-        <md-list-item *ngIf='myval' class="list_css1"> 
+        <md-list-item  class="list_css1"> 
           <md-icon style="margin-left: 20px;" md-list-avatar>person_add</md-icon>
           <a style="font-size: 12px;" md-line routerLink="">Add Person </a>
         </md-list-item>
-        <md-list-item #myid class="list_css1">
+        <md-list-item  class="list_css1">
           <md-icon style="margin-left: 20px;" md-list-avatar>assignment_ind</md-icon>
-          <a style="font-size: 12px;" md-line routerLink="">Start Registration</a>
+          <a #myid   style="font-size: 12px;" md-line routerLink="">Start Registration</a>
         </md-list-item>
         <md-divider></md-divider>
         <md-list-item class="list_css">
@@ -35,4 +35,5 @@
           <md-icon md-list-avatar>home</md-icon>
           <a class="slidebar-anchor"  md-2-line routerLink="">house</a>
         </md-list-item>
+
       </md-nav-list>

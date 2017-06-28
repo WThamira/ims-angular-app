@@ -32,6 +32,7 @@
   color: #E65100;
   border: 1px solid #f1f1f1;
   background-color: white;
+  display: none;
 }
 
 /*.mat-list .mat-list-item.mat-list-item-avatar .mat-list-item-content .mat-nav-list .mat-list-item.mat-list-item-avatar .mat-list-item-content{
