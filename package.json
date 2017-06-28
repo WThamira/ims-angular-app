@@ -8,6 +8,7 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
+    "deploy": "ng build --prod --base-href 'https://github.com/WThamira/lms-angular-app/' angular-cli-ghpages [OPTIONS]",
     "e2e": "ng e2e"
   },
   "private": true,
